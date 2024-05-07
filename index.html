@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blue Square</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
 </head>
 <body>
 
@@ -12,21 +12,21 @@
 <div class="blue-square">
   <div>
     <h2>Experience First Hand</h2>
-    <p>It is important to familiarize oneself with the different types of scams and hacking</p>
-    <button id="popupButton">Click Me</button>
+    <p>It is important to familiarize oneself with the different ... Learn more here</p>
+    <button id="popupButton">More</button>
   </div>
 </div>
 
-<!-- JavaScript for popup -->
-<script>
-  // Function to open popup
-  function openPopup() {
-    alert("WARNING! YOUR DEVICE HAS BEEN COMPROMISED");
-  }
+<!-- Popup -->
+<div class="popup">
+  <button id="closeButton">X</button>
+  <h2>WARNING! YOUR DEVICE HAS BEEN COMPROMISED</h2>
+  <p>text blah blah blah</p>
+  <a href="#">Help</a>
+</div>
 
-  // Add event listener to button
-  document.getElementById("popupButton").addEventListener("click", openPopup);
-</script>
+<!-- JavaScript for popup -->
+<script src="script.js"></script>
 
 </body>
 </html>
