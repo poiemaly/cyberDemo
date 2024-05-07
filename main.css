@@ -1,0 +1,20 @@
+/* Center the content vertically and horizontally */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the blue square */
+  .blue-square {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 200px; /* Center text vertically */
+  }
+
+  
