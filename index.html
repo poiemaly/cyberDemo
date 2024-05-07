@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blue Square</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+<!-- Blue square with text and button -->
+<div class="blue-square">
+  <div>
+    <h2>Experience First Hand</h2>
+    <p>It is important to familiarize oneself with the different types of scams and hacking</p>
+    <button id="popupButton">Click Me</button>
+  </div>
+</div>
+
+<!-- JavaScript for popup -->
+<script>
+  // Function to open popup
+  function openPopup() {
+    alert("WARNING! YOUR DEVICE HAS BEEN COMPROMISED");
+  }
+
+  // Add event listener to button
+  document.getElementById("popupButton").addEventListener("click", openPopup);
+</script>
+
+</body>
+</html>
